@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 public class ItemServiceImpl implements ItemService {
 
 	@Override
-	public List<Item> findAll() {
+	public List<Item> findAllItems() {
 		return Arrays.asList(new Item(BigInteger.valueOf(1), "pen", 10), new Item(BigInteger.valueOf(2), "pencil", 5));
 	}
 }

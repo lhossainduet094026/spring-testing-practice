@@ -6,5 +6,5 @@ import com.example.demo.model.Item;
 
 public interface ItemService {
 
-	List<Item> findAll();
+	List<Item> findAllItems();
 }
